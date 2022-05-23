@@ -7,87 +7,13 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="./assets/plugin/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/plugin/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./assets/plugin/aos/aos.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <script src="./assets/js/jquery-3.6.0.min.js"></script>
 </head>
   <header></header>
   <section class="homepage">
     <div class="top-banner"></div>
-    <style>
-      .homepage{}
-      .homepage .about{
-        padding: 50px 0 0;
-        position: relative;
-        overflow: hidden;
-      }
-      .homepage .about .det-bx{
-        margin-bottom: 50px;
-      }
-      .homepage .about .det-bx .t{
-        color: var(--theme-color);
-      }
-      .homepage .about .det-bx .s{
-        font-weight: 800;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 50px;
-        color: #373D4B;
-      }
-      .homepage .about .img-bx{
-        margin-bottom: 50px;
-        position: relative;
-      }
-      .homepage .about .img-bx .img-cntr{
-        /* max-width: 450px; */
-        border-radius: 15px;
-        position: relative;
-      }
-      .homepage .about .img-bx .img{
-        width: 100%;
-      }
-      .homepage .about .img-bx .img-cntr::before{
-        content: " ";
-        background-image: url(./assets/img/icon/dots.svg);
-        background-repeat: no-repeat;
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: -25px;
-        left: -25px;
-        z-index: -1;
-      }
-      .homepage .about .img-bx .img-cntr::after{
-        content: " ";
-        background-image: url(./assets/img/icon/img-side.svg);
-        background-repeat: no-repeat;
-        width: 40px;
-        height: 77px;
-        position: absolute;
-        top: 0;
-        right: -20px;
-      }
-      .homepage .about .about-me-bx{
-        padding: 20px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 35px;
-        left: 30%;
-        transform: translateX(-30%);
-        max-width: 500px;
-        background-color: #FFF;
-        box-shadow: 0 0 30px rgb(0 0 0 / 20%);
-      }
-      .homepage .about .about-me-bx .t{
-        text-decoration: underline;
-        color: var(--theme-color);
-        font-weight: bold;
-        font-size: 1.4rem;
-      }
-      .homepage .about .about-me-bx .d{
-        text-align: justify;
-        margin: 0;
-        font-size: 1.2rem;
-      }
-    </style>
     <div class="about">
       <img data-src="./assets/img/pattern/mandala-1.svg" alt="Mandala" class="lazy-load pk-manadala top-right">
       <div class="container">
@@ -116,127 +42,6 @@
       </div>
       <img data-src="./assets/img/pattern/mandala-1.svg" alt="Mandala" class="lazy-load pk-manadala bottom-left">
     </div>
-    <style>
-      .homepage .projects{
-        padding: 50px 0;
-        position: relative;
-        overflow: hidden;
-      }
-      .homepage .projects .head{
-        text-align: center;
-        margin-bottom: 25px;
-      }
-      .homepage .projects .head .t{
-        color: var(--theme-color);
-        text-transform: uppercase;
-        font-weight: bold;
-      }
-      .homepage .projects .head .s{
-        font-weight: 800;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 40px;
-        margin: 0;
-      }
-      .homepage .projects .pbx{
-        border-radius: 10px;
-        background-color: #FFF;
-        margin-bottom: 30px;
-        overflow: hidden;
-      }
-      .homepage .projects .pbx .link{
-        text-decoration: none;
-        outline: none;
-        color: inherit;
-        display: block;
-      }
-      .homepage .projects .pbx .imgbx{
-        overflow: hidden;
-        background-image: var(--image-path);
-        height: 300px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: top;
-        transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        -webkit-transition: all 1s ease;
-      }
-      .homepage .projects .pbx .imgbx .img{
-        width: 100%;
-      }
-      .homepage .projects .pbx .dbx{
-        text-align: center;
-        position: relative;
-        padding: 40px 10px 10px;
-      }
-      .homepage .projects .pbx .dbx .t{
-        border-radius: 50px;
-        background-color: #ffffff;
-        width: fit-content;
-        padding: 7px 10px;
-        font-weight: bold;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -20px;
-        min-width: 200px;
-      }
-      .homepage .projects .pbx .dbx .d{
-        font-weight: bold;
-        margin: 0;
-      }
-      .homepage .projects .pbx:hover .imgbx{
-        background-position: bottom;
-      }
-      .homepage .projects .see-more-link{
-        text-decoration: none;
-        outline: none;
-        color: var(--theme-color);
-        border: 2px solid var(--theme-color);
-        border-radius: 5px;
-        display: block;
-        width: fit-content;
-        margin: 0 auto;
-        padding: 7px 35px 7px 15px;
-        font-weight: bold;
-        position: relative;
-      }
-      .homepage .projects .see-more-link i{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        margin-left: 10px;
-        font-size: 18px;
-      }
-      .homepage .projects .see-more-link:hover{
-        background-color: var(--theme-color);
-        color: #FFF;
-      }
-      .pk-manadala{
-        position: absolute;
-        width: 400px;
-        height: 400px;
-        opacity: 0.2;
-        z-index: -1;
-      }
-      .pk-manadala.top-left{
-        top: -200px;
-        left: -200px;
-      }
-      .pk-manadala.top-right{
-        top: -200px;
-        right: -200px;
-      }
-      .pk-manadala.bottom-left{
-        bottom: -200px;
-        left: -200px;
-      }
-      .pk-manadala.bottom-right{
-        bottom: -200px;
-        right: -200px;
-      }
-    </style>
     <div class="projects">
       <img data-src="./assets/img/pattern/mandala-1.svg" alt="Mandala" class="lazy-load pk-manadala top-left">
       <div class="container">
@@ -248,10 +53,9 @@
           <div class="row">
 
             <div class="col-lg-4">
-              <div class="pbx">
+              <div class="pbx" data-aos="fade-up">
                 <a href="#" class="link">
-                  <div class="imgbx" style="--image-path:url(./assets/img/projects/acharyavshastri.png)">
-                    <!-- <img src="./assets/img/projects/acharyavshastri.png" alt="Project Image" class="lazy-load img"> -->
+                  <div class="imgbx" style="--image-path:url(../../assets/img/projects/acharyavshastri.png)">
                   </div>
                   <div class="dbx">
                     <h6 class="t">Project Type</h6>
@@ -271,8 +75,10 @@
   </section>
   <footer></footer>
 <body>
+  <script src="./assets/plugin/aos/aos.js"></script>
   <script src="./assets/plugin/bootstrap/bootstrap.min.js"></script>
   <script src="./assets/js/jquery.lazy.min.js"></script>
   <script src="./assets/js/style.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
