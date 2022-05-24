@@ -297,6 +297,69 @@ div[role="progressbar"]::before {
   box-shadow: var(--pk-box-shadow);
 }
 
+.homepage .skills{
+  background-color: #FFF;
+  padding: 50px 0;
+}
+.homepage .skills .head{
+  text-align: center;
+}
+.homepage .skills .head .title{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.homepage .skills .all{}
+.homepage .skills .all .c-row{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+}
+.homepage .skills .all .c-row .skill-bx{
+  transform: rotate3d(1, 1, 1, 320deg);
+  border-radius: 100%;
+  position: relative;
+}
+.homepage .skills .all .c-row .skill-bx .link{
+  text-decoration: none;
+  outline: none;
+  display: block;
+  width: fit-content;
+}
+.homepage .skills .all .c-row .skill-bx .skill-pro{
+  --size: 4rem;
+  --fg: #00d7ff;
+  background: radial-gradient(closest-side, white 90%, transparent 0 99.9%, white 0), conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  overflow: hidden;
+}
+.homepage .skills .all .c-row .skill-bx .skill-pro::before{
+  display: none;
+}
+.homepage .skills .all .c-row .skill-bx .skill-pro .icon{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+.homepage .skills .all .c-row .skill-bx .skill-pro .stitle{
+  font-weight: bold;
+  position: relative;
+  top: 17px;
+  color: var(--theme-color);
+}
+
+.homepage .skills .all .c-row .skill-bx:hover{
+  box-shadow: var(--pk-box-shadow);
+  transform: scale(1.1);
+}
+.homepage .skills .all .c-row .skill-bx .skill-pro:hover .icon{
+  top: -20px;
+}
+.homepage .skills .all .c-row .skill-bx .skill-pro:hover .stitle{
+  top: -20px;
+}
+
 /* RESPONSIVE */
 @media(max-width: 1200px){
   .theme-container{
