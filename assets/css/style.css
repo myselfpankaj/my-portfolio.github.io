@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fbfbfb;
+  background-color: #fbfbfb
 }
 
 html {
@@ -246,8 +246,8 @@ div[role="progressbar"]::before {
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.1;
-  background-repeat: repeat;
+  opacity: .1;
+  background-repeat: repeat
 }
 
 .homepage .projects .head {
@@ -326,7 +326,7 @@ div[role="progressbar"]::before {
 }
 
 .homepage .projects .pbx:hover {
-  box-shadow: var(--pk-box-shadow);
+  box-shadow: var(--pk-box-shadow)
 }
 
 .homepage .projects .pbx:hover .imgbx {
@@ -440,26 +440,25 @@ div[role="progressbar"]::before {
   top: -20px
 }
 
-/* FOOTER */
 .footer {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color)
 }
 
 .footer .links-box {
-  padding: 30px 0;
+  padding: 30px 0
 }
 
 .footer .links-box .flink-title {
   font-weight: bold;
   color: #FFF;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .footer .links-box .flink-list {
   margin: 0;
   padding: 0;
   color: #FFF;
-  list-style: none;
+  list-style: none
 }
 
 .footer .links-box .flink-list>.li {}
@@ -469,20 +468,19 @@ div[role="progressbar"]::before {
   outline: none;
   display: block;
   width: fit-content;
-  color: inherit;
+  color: inherit
 }
 
 .footer .copyright-box {
   text-align: center;
   padding: 10px 0;
-  border-top: 2px solid #9d9d9d;
+  border-top: 2px solid #9d9d9d
 }
 
 .footer .copyright-box .t {
   font-weight: bold;
-  color: #FFF;
+  color: #FFF
 }
-
 
 @media(max-width:1200px) {
   .theme-container {
