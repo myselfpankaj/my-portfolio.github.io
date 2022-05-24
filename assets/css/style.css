@@ -238,7 +238,7 @@ div[role="progressbar"]::before {
   overflow: hidden
 }
 
-.homepage .projects .pb-bg{
+.homepage .projects .pb-bg {
   background-image: url(../../assets/img/bg/code-bg-blue-400.png);
   position: absolute;
   z-index: -1;
@@ -309,7 +309,7 @@ div[role="progressbar"]::before {
 .homepage .projects .pbx .dbx .t {
   border-radius: 50px;
   background-color: var(--theme-color);
-  color:#FFF;
+  color: #FFF;
   width: fit-content;
   padding: 7px 10px;
   font-weight: bold;
@@ -325,7 +325,7 @@ div[role="progressbar"]::before {
   margin: 0
 }
 
-.homepage .projects .pbx:hover{
+.homepage .projects .pbx:hover {
   box-shadow: var(--pk-box-shadow);
 }
 
@@ -441,38 +441,44 @@ div[role="progressbar"]::before {
 }
 
 /* FOOTER */
-.footer{
+.footer {
   background-color: var(--secondary-color);
 }
-.footer .links-box{
+
+.footer .links-box {
   padding: 30px 0;
 }
-.footer .links-box .flink-title{
+
+.footer .links-box .flink-title {
   font-weight: bold;
   color: #FFF;
   text-transform: uppercase;
 }
-.footer .links-box .flink-list{
+
+.footer .links-box .flink-list {
   margin: 0;
   padding: 0;
   color: #FFF;
   list-style: none;
 }
-.footer .links-box .flink-list>.li{
-}
-.footer .links-box .flink-list>.li>.link{
+
+.footer .links-box .flink-list>.li {}
+
+.footer .links-box .flink-list>.li>.link {
   text-decoration: none;
   outline: none;
   display: block;
   width: fit-content;
   color: inherit;
 }
-.footer .copyright-box{
+
+.footer .copyright-box {
   text-align: center;
   padding: 10px 0;
   border-top: 2px solid #9d9d9d;
 }
-.footer .copyright-box .t{
+
+.footer .copyright-box .t {
   font-weight: bold;
   color: #FFF;
 }
