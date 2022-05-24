@@ -502,19 +502,18 @@ div[role="progressbar"]::before {
 .footer .links-box .social-box .social-links{
   display: flex;
   flex-wrap: wrap;
-  row-gap: 15px;
-  column-gap: 15px;
+  gap: 7px;
 }
 .footer .links-box .social-box .social-links .link {
   text-decoration: none;
   display: block;
   outline: none;
   color: #FFF;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  font-size: 18px;
-  border: 2px solid #FFF;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border: 1px solid #FFF;
   text-align: center;
   border-radius: 100%;
 
@@ -524,7 +523,7 @@ div[role="progressbar"]::before {
 .footer .links-box .social-box .social-links .link:hover {
   background-position: left;
   color: var(--secondary-color);
-  box-shadow: var(--pk-box-shadow);
+  box-shadow: 0 0 15px #fff;
   transform: scale(1.1);
 }
 .footer .links-box .social-box .social-links .link>i{}

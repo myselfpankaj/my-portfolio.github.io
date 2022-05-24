@@ -27,3 +27,13 @@ function loadSkills(){
     $('#allSkills').append(skills);
   });
 }
+
+function loadSociallLinks(){
+  $.getJSON('./assets/json/social-links.json', function(jd) {
+    var social = "";
+    jd.forEach(function(item, index) {
+      social += '<a href="#" class="link" target="_blank" aria-label="'+item.title+'" rel="noreferrer">'+item.icon+'</a>';
+    });
+    $('#footerAllSocialLinks').append(social);
+  });
+}
