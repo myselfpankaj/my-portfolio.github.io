@@ -468,7 +468,8 @@ div[role="progressbar"]::before {
   margin: 0;
   padding: 0;
   color: #FFF;
-  list-style: none
+  list-style: none;
+  margin-bottom: 15px;
 }
 
 .footer .links-box .flink-list>.li {}
@@ -480,6 +481,53 @@ div[role="progressbar"]::before {
   width: fit-content;
   color: inherit
 }
+
+.footer .links-box .about-bx{
+  color: #FFF;
+}
+.footer .links-box .about-bx .t{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer .links-box .about-bx .d{
+  text-align: justify;
+}
+
+.footer .links-box .social-box{}
+.footer .links-box .social-box .t{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.footer .links-box .social-box .social-links{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+.footer .links-box .social-box .social-links .link {
+  text-decoration: none;
+  display: block;
+  outline: none;
+  color: #FFF;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
+  border: 2px solid #FFF;
+  text-align: center;
+  border-radius: 100%;
+
+  background: linear-gradient(to left, transparent 50%, #FFF 50%) right;
+  background-size: 200%;
+}
+.footer .links-box .social-box .social-links .link:hover {
+  background-position: left;
+  color: var(--secondary-color);
+  box-shadow: var(--pk-box-shadow);
+  transform: scale(1.1);
+}
+.footer .links-box .social-box .social-links .link>i{}
 
 .footer .copyright-box {
   text-align: center;
