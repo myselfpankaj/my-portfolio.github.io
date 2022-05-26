@@ -327,7 +327,7 @@ div[role="progressbar"]::before {
   margin: 0
 }
 
-.bottom-goto-top-btn{  
+.bottom-goto-top-btn{
   --size: 40px;
   position: fixed;
   bottom: 15px;
@@ -336,14 +336,17 @@ div[role="progressbar"]::before {
   height: var(--size);
   line-height: var(--size);
   text-align: center;
-  background-color: var(--theme-color);
-  color: #FFF;
+  border: 2px solid var(--theme-color);
+  color: var(--theme-color);
   font-size: 24px;
   cursor: pointer;
 }
+.bottom-goto-top-btn:hover{
+  background-color: var(--theme-color);
+  color: #FFF;
+}
 
 .homepage {}
-
 .homepage .about {
   padding: 50px 0 0;
   position: relative;
