@@ -153,8 +153,6 @@ div[role="progressbar"]::before {
   color: #FFF
 }
 
-.header .content {}
-
 .header .content .logo-cntr {
   display: inline-block;
   text-align: left;
@@ -217,8 +215,6 @@ div[role="progressbar"]::before {
   padding: 5px
 }
 
-.header .content .nav-cntr .cnav>.li>.link>span {}
-
 .footer {
   background-color: var(--secondary-color)
 }
@@ -276,8 +272,6 @@ div[role="progressbar"]::before {
   text-align: justify
 }
 
-.footer .links-box .social-box {}
-
 .footer .links-box .social-box .t {
   font-weight: bold;
   text-transform: uppercase;
@@ -312,8 +306,6 @@ div[role="progressbar"]::before {
   box-shadow: 0 0 15px #fff;
   transform: scale(1.1)
 }
-
-.footer .links-box .social-box .social-links .link>i {}
 
 .footer .copyright-box {
   text-align: center;
@@ -600,7 +592,6 @@ div[role="progressbar"]::before {
   margin: 0
 }
 
-.homepage .skills .all {}
 
 .homepage .skills .all .c-row {
   display: flex;
@@ -668,9 +659,6 @@ div[role="progressbar"]::before {
 }
 
 @media(max-width:767px) {
-  .header {}
-
-  .header .content {}
 
   .header .content .logo-cntr {
     width: 100%
@@ -708,8 +696,6 @@ div[role="progressbar"]::before {
   .header .content .nav-cntr .cnav>.li>.link {
     font-size: 25px
   }
-
-  .header .content .nav-cntr .cnav>.li>.link>span {}
 
   .header .content .nav-cntr.show {
     left: 0
